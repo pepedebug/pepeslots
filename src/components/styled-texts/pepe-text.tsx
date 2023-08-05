@@ -9,7 +9,7 @@ type PepeTextProps = {
 export default function PepeText({className, children} : PepeTextProps) {
     return (
         <>
-            <span className={`${primaryFont.className} text-shadow ${className}`}>
+            <span className={`${primaryFont.className} text-shadow ${className} text-xl`}>
                 {children}
             </span>
         </>

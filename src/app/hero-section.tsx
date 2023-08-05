@@ -24,14 +24,14 @@ export default function HeroSection() {
                             </span>
                             <span className={` ${tertiaryFont.className} font-light`}>
                             Welcome to
-                            <span className={`${primaryFont.className} text-shadow`}> Pepe$</span>,
+                            <span className={`${primaryFont.className} text-shadow text-xl`}> Pepe$</span>,
                             the meme token that&apos;s more than just a cryptocurrency. We&apos;ve spiced up the crypto scene by embedding a slot machine right into the contract.
                         </span>
                             <span className={`${tertiaryFont.className} font-light mt-2`}>
                             It&apos;s said that being addicted to something isn&apos;t always a bad thing, and with
-                            <span className={`${primaryFont.className} text-shadow`}> Pepe$</span>,
+                            <span className={`${primaryFont.className} text-shadow text-xl`}> Pepe$</span>,
                             you&apos;ll find yourself hooked on the excitement of investing, spinning, and potentially winning. Dive into the world of
-                            <span className={`${primaryFont.className} text-shadow`}> Pepe$</span>,
+                            <span className={`${primaryFont.className} text-shadow text-xl`}> Pepe$</span>,
                             where finance meets fun, and discover a whole new way to enjoy crypto!
                         </span>
                     </div>

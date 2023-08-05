@@ -23,8 +23,10 @@ export default function ProvablyFairSection () {
                         <Image src={slotMachineGlow} alt={"slot-machine"} className={"absolute -right-3 w-[300px]"}></Image>
                         <Image src={wojakPepe} alt={"wojak-pepe"} className={"cartoon-face w-[350px] mt-6"}/>
                     </div>
-                    <span className={`${tertiaryFont.className} mt-6 text-center`}>What does "provably fair" mean? It means that our slot machine operates on a transparent algorithm that allows players to verify the fairness of each spin. When you play with
-                        <span className={`${primaryFont.className} text-shadow`}> Pepe$</span>, the outcome of each spin is determined by a cryptographic algorithm that cannot be altered or influenced by external factors.
+                    <span className={`${tertiaryFont.className} mt-6 text-center`}>What does "
+                        <span className={`${primaryFont.className} text-shadow text-xl`}>provably fair</span>
+                        " mean? It means that our slot machine operates on a transparent algorithm that allows players to verify the fairness of each spin. When you play with
+                        <span className={`${primaryFont.className} text-shadow text-xl`}> Pepe$</span>, the outcome of each spin is determined by a cryptographic algorithm that cannot be altered or influenced by external factors.
                     </span>
                 </div>
             </div>
