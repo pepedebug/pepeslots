@@ -6,6 +6,30 @@
     .text-shadow {
         text-shadow: rgba(0, 0, 0, 0.498039) -1px -1px 0, rgba(0, 0, 0, 0.498039) -1px 1px 0, rgba(0, 0, 0, 0.498039) 1px 1px 0, rgba(0, 0, 0, 0.498039) 1px -1px 0;
     }
+    @keyframes laughingAnimation {
+        0% {
+            transform: translateY(0);
+        }
+        20% {
+            transform: translateY(-20px);
+        }
+        30% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-20px);
+        }
+        60% {
+            transform: translateY(0);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+
+    .cartoon-face {
+        animation: laughingAnimation 1s infinite;
+    }
 }
 
 :root {

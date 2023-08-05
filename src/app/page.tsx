@@ -1,7 +1,7 @@
 import HeroSection from "@/app/hero-section";
 import AboutSection from "@/app/about-section";
 import PaperDivider from "@/components/paper-divider";
-import TokenomicsSection from "@/app/tokenomics-section";
+import ProvablyFairSection from "@/app/provably-fair-section";
 
 export default function Home() {
     return (
@@ -10,7 +10,8 @@ export default function Home() {
             <PaperDivider className={"scale-y-50"}/>
             <AboutSection/>
             <PaperDivider className={"scale-y-50 scale-x-[-1] transform"}/>
-            <TokenomicsSection/>
+            <ProvablyFairSection/>
+            <PaperDivider className={"scale-y-50"}/>
         </main>
     );
 }
