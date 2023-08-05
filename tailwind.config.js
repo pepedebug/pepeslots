@@ -5,6 +5,9 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  daisyui: {
+    themes: ["forest"]
+  },
   theme: {
     extend: {
       backgroundImage: {
@@ -12,7 +15,20 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      maxWidth: {
+        'content-width': '1440px'
+      },
+      fontFamily: {
+        'inter': ['inter'],
+        'montserrat': ['montserrat']
+      },
+      colors: {
+        'pepe-green': '#4C9541'
+      },
+      boxShadow: {
+        'upward': '0 -4px 6px -1px rgba(0, 0, 0, 0.1), 0 -2px 4px -1px rgba(0, 0, 0, 0.06)',
+      }
     },
   },
-  plugins: [],
+  plugins: [require('daisyui')],
 }

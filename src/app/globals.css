@@ -2,18 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@layer base {
+    .text-shadow {
+        text-shadow: rgba(0, 0, 0, 0.498039) -1px -1px 0, rgba(0, 0, 0, 0.498039) -1px 1px 0, rgba(0, 0, 0, 0.498039) 1px 1px 0, rgba(0, 0, 0, 0.498039) 1px -1px 0;
+    }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 76, 149, 65;
+  --background-end-rgb: var(--background-start-rgb);
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
