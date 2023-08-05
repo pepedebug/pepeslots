@@ -5,7 +5,8 @@ import {secondaryFont} from "@/components/fonts";
 import BottomNavigationBar from "@/app/bottom-navigation-bar";
 
 export const metadata: Metadata = {
-  title: 'PEPE$ - A New World',
+    title: 'Pepe$ - Pepe Slots',
+    description: "A slot machine, but completely decentralized",
 }
 
 export default function RootLayout({
